@@ -119,6 +119,17 @@ void modulo_usuario(void) {
 
     do {
         opcao = menu_usuario();
+        switch (opcao) {
+            case '1':
+                ver_dados();
+                break;
+            case '2':
+                altera_dados();
+                break;
+            case '3':
+                deleta_conta();
+                break;
+        }
     } while (opcao != '0');
 }
 
