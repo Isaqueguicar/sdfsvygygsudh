@@ -17,7 +17,7 @@
 
 
 
-// --== * Assinaturas * ==-- //
+
 void menu_inicio(void);
 char menu_principal(void);
 
